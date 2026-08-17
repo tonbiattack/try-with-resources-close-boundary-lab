@@ -1,0 +1,20 @@
+08:28:00.324 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.resourceslab.ResourceServiceTest]: ResourceServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:28:00.421 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.resourceslab.ResourcesLabApplication for test class com.example.resourceslab.ResourceServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-08-17T08:28:00.794Z  INFO 6235 --- [           main] c.e.resourceslab.ResourceServiceTest     : Starting ResourceServiceTest using Java 21.0.11 with PID 6235 (started by ubuntu in /home/ubuntu/work/try-with-resources-close-boundary-lab)
+2026-08-17T08:28:00.796Z  INFO 6235 --- [           main] c.e.resourceslab.ResourceServiceTest     : No active profile set, falling back to 1 default profile: "default"
+2026-08-17T08:28:01.303Z  INFO 6235 --- [           main] c.e.resourceslab.ResourceServiceTest     : Started ResourceServiceTest in 0.755 seconds (process running for 1.591)
+WARNING: A Java agent has been loaded dynamically (/home/ubuntu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
